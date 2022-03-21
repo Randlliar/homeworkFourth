@@ -1,55 +1,44 @@
 const sum = (num1, num2) => {
-    const sumResult = num1 + num2;
-    return sumResult;
+    return num1 + num2;
 }
 
 const sub = (num1, num2) => {
-    const subResult = num1 - num2;
-    return subResult;
+    return num1 - num2;
 }
 
 const multiply = (num1, num2) => {
-    const multiplyResult = num1 * num2;
-    return multiplyResult;
+    return num1 * num2;
 }
 
 const div = (num1, num2) => {
-    const divResult = num1 / num2;
-    return divResult;
+    return num1 / num2;
 }
 
 const modulo = (num1, num2) => {
-    const moduloResult = num1 % num2;
-    return moduloResult;
+    return num1 % num2;
 }
 
 const moreThan = (num1, num2) => {
-    const moreThanResult = num1 > num2;
-    return moreThanResult;
+    return num1 > num2;
 }
 
 const lessThan = (num1, num2) => {
-    const lessThanResult = num1 < num2;
-    return lessThanResult;
+    return num1 < num2;
 }
 
 const moreThanOrEqual = (num1, num2) => {
-    const moreThanOrEqualResult = num1 >= num2;
-    return moreThanOrEqualResult;
+    return num1 >= num2;
 }
 
 const lessThanOrEqual = (num1, num2) => {
-    const lessThanOrEqualResult = num1 <= num2;
-    return lessThanOrEqualResult;
+    return num1 <= num2;
 }
 
 const equal = (num1, num2) => {
-    const equalResult = num1 === num2;
-    return equalResult;
+    return num1 === num2;
 }
 const notEqual = (num1, num2) => {
-    const notEqualResult = num1 !== num2;
-    return notEqualResult;
+    return num1 !== num2;
 }
 
 console.log('Сумма чисел равна:')
