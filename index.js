@@ -1,5 +1,6 @@
 const sum = (num1, num2) => {
-    return num1 + num2;
+    const sumResult = num1 + num2;
+    return sumResult;
 }
 
 const sub = (num1, num2) => {
