@@ -3,8 +3,7 @@ function sum(num1, num2){
 }
 
 const sumFunction = function (num1, num2){
-    const result = num1 + num2;
-    console.log(result)
+    return num1 + num2;
 }
 
 const arrowSum = (num1, num2) => {
@@ -16,8 +15,7 @@ function sub(num1, num2){
 }
 
 const subFunction = function (num1, num2){
-    const result = num1 - num2;
-    console.log(result)
+    return num1 - num2;
 }
 
 const arrowSub = (num1, num2) => {
@@ -29,8 +27,7 @@ function multiply(num1, num2){
 }
 
 const multiplyFunction = function (num1, num2){
-    const result = num1 * num2;
-    console.log(result)
+    return num1 * num2;
 }
 
 const arrowMultiply = (num1, num2) => {
@@ -42,8 +39,7 @@ function div(num1, num2){
 }
 
 const divFunction = function (num1, num2){
-    const result = num1 / num2;
-    console.log(result)
+    return num1 / num2;
 }
 
 const arrowDiv = (num1, num2) => {
@@ -55,8 +51,7 @@ function modulo(num1, num2){
 }
 
 const moduloFunction = function (num1, num2){
-    const result = num1 % num2;
-    console.log(result)
+    return num1 % num2;
 }
 
 const arrowModulo = (num1, num2) => {
@@ -68,8 +63,7 @@ function moreThan(num1, num2){
 }
 
 const moreThanFunction = function (num1, num2){
-    const result = num1 > num2;
-    console.log(result)
+    return num1 > num2;
 }
 
 const arrowMoreThan = (num1, num2) => {
@@ -77,12 +71,11 @@ const arrowMoreThan = (num1, num2) => {
 }
 
 function lessThan(num1, num2){
-    return num1 > num2;
+    return num1 < num2;
 }
 
 const lessThanFunction = function (num1, num2){
-    const result = num1 > num2;
-    console.log(result)
+    return num1 < num2;
 }
 
 const arrowLessThan = (num1, num2) => {
@@ -94,8 +87,7 @@ function moreThanOrEqual(num1, num2){
 }
 
 const moreThanOrEqualFunction = function (num1, num2){
-    const result = num1 >= num2;
-    console.log(result)
+    return num1 >= num2;
 }
 
 const arrowMoreThanOrEqual = (num1, num2) => {
@@ -107,8 +99,7 @@ function lessThanOrEqual(num1, num2){
 }
 
 const lessThanOrEqualFunction = function (num1, num2){
-    const result = num1 <= num2;
-    console.log(result)
+    return num1 <= num2;
 }
 
 const arrowLessThanOrEqual = (num1, num2) => {
@@ -120,8 +111,7 @@ function equal(num1, num2){
 }
 
 const equalFunction = function (num1, num2){
-    const result = num1 === num2;
-    console.log(result)
+    return num1 === num2;
 }
 
 const arrowEqual = (num1, num2) => {
@@ -133,8 +123,7 @@ function notEqual(num1, num2){
 }
 
 const notEqualFunction = function (num1, num2){
-    const result = num1 !== num2;
-    console.log(result)
+    return num1 !== num2;
 }
 
 const arrowNotEqual = (num1, num2) => {
